@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jule-cache-v4';
+const CACHE_NAME = 'jule-cache-v5';
 const urlsToCache = [
   './index.html',
   './manifest.json',
@@ -25,5 +25,6 @@ self.addEventListener('fetch', event => {
   );
 
 });
+
 
 
