@@ -8,10 +8,11 @@
   "theme_color": "#1a0f0a",
   "icons": [
     {
-      "src": "https://cdn-icons-png.flaticon.com/512/806/806131.png",
+      "src": "icon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
   ]
+
 }
