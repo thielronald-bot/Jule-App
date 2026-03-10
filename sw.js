@@ -1,7 +1,8 @@
-const CACHE_NAME = 'jule-cache-v3';
+const CACHE_NAME = 'jule-cache-v4';
 const urlsToCache = [
   './index.html',
   './manifest.json',
+  './icon.png',
   'https://unpkg.com/react@18/umd/react.production.min.js',
   'https://unpkg.com/react-dom@18/umd/react-dom.production.min.js',
   'https://unpkg.com/@babel/standalone/babel.min.js',
@@ -24,4 +25,5 @@ self.addEventListener('fetch', event => {
   );
 
 });
+
 
